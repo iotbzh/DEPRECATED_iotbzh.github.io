@@ -85,7 +85,7 @@ As stated before, the foundation for event signaling is already in place in deve
 - **Agent Core Components**
     - Create a simple configuration model to move from low level signal description to something more generic that could help to abstract the hardware.
     - Implement a real publish/subscribe mode on top of existing event model to support advanced functionalities like: getSignalEvery(signal, time), getSignalIf (signal, value, gt, xxx), etc ...
-    - Choose a model to boost exchange of information in between binders, MemCache, Retis, ... and implement what ever is necessary on top to provide a real added value to developers.
+    - Choose a model to boost exchange of information in between binders, MemCache, Redis, ... and implement what ever is necessary on top to provide a real added value to developers.
     - Implement some form of introsception to allow application to discover the list of signal supported by a given agent.
 - **Few Common Agents**
     - Provide at least a reference implementation for a generic CAN agent
