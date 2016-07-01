@@ -1,11 +1,12 @@
 ---
-Title: Message Signalling Potential Architecture for AGL
-Author: Fulup Ar Foll (IoT.bzh)
-Date: 30-06-2016
+title: Message Signalling Potential Architecture for AGL
+author: Fulup Ar Foll (IoT.bzh)
+date: 2016-06-30
 
-Category: architecture
-Tags: architecture, signal, message
-Layout: technical-proposal
+categories: architecture, appfw
+tags: architecture, signal, message
+layout: techdoc
+
 ---
 
 # Message Signaling Potential Architecture for AGL

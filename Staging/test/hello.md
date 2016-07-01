@@ -1,8 +1,15 @@
 ---
+title: Test Markdown to UML
+author: Fulup Ar Foll (IoT.bzh)
+date: 2016-06-30
+
+categories: [architecture, appfw]
+tags: [architecture, signal, message]
+layout: techdoc
 ---
 
 Welcome to StackEdit!
-===================
+---------------------
 
 
 Hey! I'm your first Markdown document in **StackEdit**[^stackedit]. Don't delete me, I'm very helpful! I can be recovered anyway in the **Utils** tab of the <i class="icon-cog"></i> **Settings** dialog.
@@ -224,8 +231,15 @@ $$
 ### UML diagrams
 
 You can also render sequence diagrams like this:
+Fulup
 
 ```sequence
+Alice->Bob: Hello Bob, how are you?
+Note right of Bob: Bob thinks
+Bob-->Alice: I am good thanks!
+```
+
+```ULM-fulup
 Alice->Bob: Hello Bob, how are you?
 Note right of Bob: Bob thinks
 Bob-->Alice: I am good thanks!
