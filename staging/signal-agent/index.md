@@ -9,8 +9,6 @@ layout: techdoc
 
 ---
 
-# Message Signaling Potential Architecture for AGL
-
 ## Context
 
 Automotive applications need to understand in real time the context in which 
