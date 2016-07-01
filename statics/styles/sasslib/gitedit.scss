@@ -19,3 +19,8 @@ limitations under the License.
    @include ibz-button(grey,1rem);
    float: right;
 }
+
+.link-button {
+   @include ibz-button(grey,3rem);
+   float: right;
+}

@@ -1,6 +1,7 @@
 body {
     margin: 60px auto;
-    width: 70%;
+    width: 90%;
+    background-color: ghostwhite;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -43,7 +44,7 @@ ul.posts li {
     list-style: none;
 }
 
-@page { margin-left: 0.79in; margin-right: 0.79in }
+@page { margin-left: 1rem; margin-right: 1rem }
 @page:first { margin-top: 0.79in; margin-bottom: 0.79in }
 p { margin-bottom: 0.1in; line-height: 120%; text-align: justify; page-break-before: auto }
 p.western { font-family: "Verdana", sans-serif; font-size: 11pt }

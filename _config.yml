@@ -17,8 +17,11 @@ markdown:  kramdown
 redirects: yes
 
 assets: 
-    js:  /statics/js
-    img: /statics/images
+    js:    /statics/js
+    img:   /statics/img
+    logo:  /statics/logo/iotbzh-logo.svg
+    stamp: /statics/logo/iotbzh-stamp.png
+    icone: /statics/logo/triskel_iot_bzh.svg
     
 sass:
     template : /statics/styles/templates
