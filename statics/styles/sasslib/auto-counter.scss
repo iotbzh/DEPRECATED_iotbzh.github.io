@@ -1,6 +1,3 @@
----
-# master Header requirer by Jykyll
----
 /*
 Copyright 2016 fulup.
 
@@ -15,9 +12,25 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
+
+Reference: http://support.markedapp.com/kb/how-to-tips-and-tricks/adding-chapter-numbers-with-custom-css
 */
-@import "_ibz-macros";
-@import "_ibz-templates";
-@import "auto-counter";
-@import "webdocs-layouts";
-@import "webdocs-widgets";
+
+h1 {
+    counter-reset: subchapter; /* set section to 0 */
+}
+
+h2:before {
+    content: counter(subchapter) " ";
+    counter-increment: subchapter;
+}
+h2 {
+    counter-reset: section;
+}
+h3:before {
+    content: counter(subchapter) "." counter(section) " ";
+    counter-increment: section;
+}
+h3 {
+    counter-reset: subsection;
+}

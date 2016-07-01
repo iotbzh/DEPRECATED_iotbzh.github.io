@@ -15,6 +15,8 @@ attributions:
 # usefull internal options
 markdown:  kramdown
 redirects: yes
+kramdown: 
+  toc_levels: "2,3"
 
 assets: 
     js:    /statics/js

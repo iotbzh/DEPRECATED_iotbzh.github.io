@@ -10,8 +10,6 @@ layout: techdoc
 
 ---
 
-
-
 Markdown Extra
 --------------------
 
@@ -98,7 +96,8 @@ SmartyPants converts ASCII punctuation characters into "smart" typographic punct
 
 You can insert a table of contents using the marker `[TOC]`:
 
-[TOC]
+1. TOC
+{:toc}
 
 
 ### UML diagrams

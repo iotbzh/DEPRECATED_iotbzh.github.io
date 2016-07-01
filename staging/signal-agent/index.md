@@ -9,6 +9,12 @@ layout: techdoc
 
 ---
 
+**Table of Content**
+
+1. TOC
+{:toc}
+
+
 ## Context
 
 Automotive applications need to understand in real time the context in which 
@@ -25,6 +31,7 @@ The present discussion is a proposal to enhance existing signaling/message model
 Our proposal relies on [[AppFw]] binder/bindings model to minimise complexity while keeping
 the system fast and secure. Proposing a model with multiple transport options and a full
 set of security feature to protect the agent generating the signal as well as consuming them.
+
 
 ## Architecture
 
