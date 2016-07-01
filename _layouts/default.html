@@ -2,18 +2,29 @@
     <html>
             <head>
                     <title>{{ page.title }}</title>
-                    <!-- link to main stylesheet -->
-                    <link rel="stylesheet" type="text/css" href="/css/main.css">
+                    <link rel="stylesheet" type="text/css" href="{{site.sass.template}}/default.css">
             </head>
             <body>
-                    </nav>
-                    <div class="container">
+                <div class="edit-button">
+                   <a href="{{site.home}}/edit/master{{page.url}}"><i class="fa fa-pencil"></i>Edit on Github</a>
+                </div> 
+                
+                <div class="container">
                     {{ content }}
-                    </div><!-- /.container -->
-                    <footer>
+                </div>
+                
+                <footer>
                     <ul>
-                            <li><a href="https://github.com/iotbzh">github.com/iotbzh</a></li>
-                            </ul>
-                    </footer>
+                            <li><a class="title"   href="{{site.home}}">{{site.title}}</a>  
+                                <a class="licence" href="{{site.attributions.licence}}">Licence (2016)</a> 
+                                <a class="owner"   href="{{site.attributions.home}}">&copy;{{site.attributions.copyright}}</a> 
+                            </li>
+                    </ul>
+                </footer>
             </body>
     </html>
+    
+<script src="{{ site.assets.js }}/lib/jqlite.1.1.1.min.js"></script>
+{% for script in layout.scripts %}
+    <script src="{{site.assets.js}}/{{script}}"></script>
+{% endfor %}

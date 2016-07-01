@@ -1,6 +1,33 @@
 ## YAML Jeykyll Config
 
-name: Fulup Ar Foll, IoT.bzh
-markdown: kramdown
+## WARNING: need to restart Jkyll when updated !!!
+## -----------------------------------------------
 
-source: .
+title: Iot.bzh Technical WebDoc
+home : https://github.com/iotbzh/iotbzh.github.io
+
+attributions:
+    author   : Fulup Ar Foll
+    copyright: IoT.bzh
+    licence  : http://www.apache.org/licenses/LICENSE-2.0
+    home     : http://iot.bzh
+
+# usefull internal options
+markdown:  kramdown
+redirects: yes
+
+assets: 
+    js:  /statics/js
+    img: /statics/images
+    
+sass:
+    template : /statics/styles/templates
+    sass_dir : /statics/styles/sasslib
+    style: compressed
+
+graph: # ~~~ UML-style-class
+    def_style: simple 
+    tag_uml  : UML 
+    tag_flow : FLOW
+    debug    : false
+    
