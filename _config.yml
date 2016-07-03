@@ -6,9 +6,6 @@
 title: Iot.bzh Technical WebDoc
 home : https://github.com/iotbzh/iotbzh.github.io
 
-destination: _site
-safe: false # enable plugins
-
 attributions:
     author   : Fulup Ar Foll
     copyright: IoT.bzh
@@ -20,7 +17,13 @@ markdown:  kramdown
 redirects: yes
 kramdown: 
   toc_levels: "2,3"
+  
+destination: _site
 
+# place here optionnal gem plugins (need to be installed locally with gem install and present on github)
+gems:
+  - jekyll-redirect-from
+  
 assets: 
     js:    /statics/js
     img:   /statics/img

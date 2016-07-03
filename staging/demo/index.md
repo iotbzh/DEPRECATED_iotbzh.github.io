@@ -7,7 +7,7 @@ date: 2016-06-30
 categories: [architecture, appfw]
 tags: [architecture, signal, message]
 layout: techdoc
-alias: /test
+redirect_from: "/test/index.html"
 
 ---
 
