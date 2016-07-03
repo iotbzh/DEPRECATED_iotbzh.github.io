@@ -7,6 +7,8 @@ categories: architecture, appfw
 tags: architecture, signal, message
 layout: techdoc
 
+alias: Staging/MessageSignalingProposal
+
 ---
 
 **Table of Content**

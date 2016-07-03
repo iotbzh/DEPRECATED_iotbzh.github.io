@@ -6,6 +6,8 @@
 title: Iot.bzh Technical WebDoc
 home : https://github.com/iotbzh/iotbzh.github.io
 
+destination: _site
+
 attributions:
     author   : Fulup Ar Foll
     copyright: IoT.bzh
