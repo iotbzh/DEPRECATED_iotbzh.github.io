@@ -18,6 +18,7 @@ limitations under the License.
 .edit-button {
    @include ibz-button(grey,1rem);
    float: right;
+   font-size: .7rem;
 }
 
 .link-button {
@@ -27,5 +28,5 @@ limitations under the License.
 
 #markdown-toc {
     @include ibz-box-content ();
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }

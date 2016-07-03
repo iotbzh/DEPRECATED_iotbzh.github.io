@@ -5,21 +5,20 @@
                     <link rel="stylesheet" type="text/css" href="{{site.sass.template}}/default.css">
             </head>
             <body>
-                <div class="edit-button">
-                   <a href="{{site.home}}/edit/master{{page.url}}"><i class="fa fa-pencil"></i>Edit on Github</a>
-                </div> 
+                <article>
+                    <div class="edit-button">
+                       <a href="{{site.home}}/edit/master{{page.url}}"><i class="fa fa-pencil"></i>Edit on Github</a>
+                    </div> 
+
+                    <div class="container">
+                        {{ content }}
+                    </div>
+                </article>
                 
-                <div class="container">
-                    {{ content }}
-                </div>
-                
-                <footer>
-                    <ul>
-                            <li><a class="title"   href="{{site.home}}">{{site.title}}</a>  
-                                <a class="licence" href="{{site.attributions.licence}}">Licence (2016)</a> 
-                                <a class="owner"   href="{{site.attributions.home}}">&copy;{{site.attributions.copyright}}</a> 
-                            </li>
-                    </ul>
+                <footer> 
+                    <a class="title"   href="{{site.home}}">{{site.title}}</a>  
+                    <a class="licence" href="{{site.attributions.licence}}">Licence (2016)</a> 
+                    <a class="owner"   href="{{site.attributions.home}}">&copy;{{site.attributions.copyright}}</a> 
                 </footer>
             </body>
     </html>

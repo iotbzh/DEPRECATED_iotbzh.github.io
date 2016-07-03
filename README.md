@@ -3,15 +3,18 @@
 
 ## run locally this site
 
-On OpenSuse on any other Linux platforms installation should be as simple as
+On OpenSuse on any other Linux plateforms installation should be as simple as
 ```
  sudo zypper install ruby2.1-devel
  sudo zypper install '*rubygem-ffi' 
  sudo gem install jekyll
  sudo gem install redcarpet
  sudo gem install jekyll-redirect-from
+ sudo gem install jekyll-sitemap
 
 ```
+
+For full optional plugins list check http://jekyllrb.com/docs/plugins/
 
 ## Reference: 
  - http://jmcglone.com/guides/github-pages

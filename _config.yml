@@ -13,16 +13,20 @@ attributions:
     home     : http://iot.bzh
 
 # usefull internal options
-markdown:  kramdown
-redirects: yes
-kramdown: 
-  toc_levels: "2,3"
-  
+markdown: kramdown
+kramdown:
+    input: GFM
+    hard_wrap: false
+    syntax_highlighter: rouge
+    toc_levels: "2,3"
+    
 destination: _site
+redirects: yes
 
 # place here optionnal gem plugins (need to be installed locally with gem install and present on github)
 gems:
   - jekyll-redirect-from
+  - jekyll-sitemap
   
 assets: 
     js:    /statics/js
