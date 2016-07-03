@@ -52,88 +52,6 @@ header {
 
 }
 
-nav {
-
-  ul {
-    padding: 0;
-    margin: 0;
-  }
-
-  li { display: inline-block; }
-}
-
-.main-nav {
-  margin-top: 52px;
-
-  li {
-    margin-right: 10px;
-
-    a {
-      @include border-radius(5px);
-      font-weight: 900;
-      font-size: 14px;
-      padding: 0.5em 1em;
-      text-shadow: none;
-      text-transform: uppercase;
-      @include transition(all .25s);
-
-      &:hover {
-        background-color: #252525;
-        @include box-shadow(inset 0 1px 3px rgba(0,0,0,.5), 0 1px 0 rgba(255,255,255,.1));
-        text-shadow: 0 1px 3px rgba(0,0,0,.5);
-      }
-    }
-
-    &.current {
-
-      a {
-        background-color: $href-color;
-        color: #222;
-        @include box-shadow(inset 0 1px 0 rgba(255,255,255,.5), 0 1px 5px rgba(0,0,0,.5));
-        text-shadow: 0 1px 0 rgba(255,255,255,.3);
-      }
-    }
-  }
-}
-
-.mobile-nav {
-
-  ul {
-    overflow: hidden;
-    width: 100%;
-    display: table;
-  }
-
-  a {
-    float: left;
-    width: 100%;
-    background-color: #333;
-    color: $href-color;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 900;
-    padding: 5px;
-    @include border-radius(5px);
-  }
-
-  li {
-    display: table-cell;
-    width: 20%;
-    padding: 8px 2px;
-  }
-
-  .current {
-
-    a {
-      background-color: $href-color;
-      color: #222;
-      @include box-shadow(inset 0 1px 0 rgba(255,255,255,.5), 0 1px 5px rgba(0,0,0,.5));
-      text-shadow: 0 1px 0 rgba(255,255,255,.3);
-    }
-  }
-}
-
 /*
  * This code is courtesy Ben Balter, modified by Parker Moore for jekyllrb.com
  * http://ben.balter.com/2014/03/13/pages-anchor-links/
@@ -269,7 +187,6 @@ article {
   padding: 20px;
   margin: 0 10px;
   @include box-shadow(3px 5px 5px adjust-hue(lightgray,20deg));
-  font-size: 16px;
 }
 
 @media (max-width: 480px) {
