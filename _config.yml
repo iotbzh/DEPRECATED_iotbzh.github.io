@@ -7,6 +7,7 @@ title: Iot.bzh Technical WebDoc
 home : https://github.com/iotbzh/iotbzh.github.io
 
 destination: _site
+safe: false # enable plugins
 
 attributions:
     author   : Fulup Ar Foll
