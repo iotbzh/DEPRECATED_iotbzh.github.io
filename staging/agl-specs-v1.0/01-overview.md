@@ -55,7 +55,7 @@ Page  5  of  159
   GPS       |   Global  Positioning  System
   GPU       |   Graphical  Processing  Unit
 
-Automotive Grade Linux Requirements Spec v1.0![](../media/picture95.png)
+Automotive Grade Linux Requirements Spec v1.0![](media/picture95.png)
 {: class="image"}
 
 
