@@ -3,8 +3,9 @@
 ## WARNING: need to restart Jkyll when updated !!!
 ## -----------------------------------------------
 
-title: Iot.bzh Technical WebDoc
-home : https://github.com/iotbzh/iotbzh.github.io
+title   : Iot.bzh Technical WebDoc
+homeurl : https://iotbzh.github.com
+editurl : https://github.com/iotbzh/iotbzh.github.io/edit/master
 
 attributions:
     author   : Fulup Ar Foll
