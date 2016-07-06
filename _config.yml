@@ -19,7 +19,7 @@ kramdown:
     input: GFM
     hard_wrap: false
     syntax_highlighter: rouge
-    toc_levels: "2,3"
+    toc_levels: "2"
     
 destination: _site
 redirects: yes
